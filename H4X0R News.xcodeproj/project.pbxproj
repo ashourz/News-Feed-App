@@ -14,6 +14,10 @@
 		2C7680092C272AF30077441C /* H4X0R_NewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7680082C272AF30077441C /* H4X0R_NewsTests.swift */; };
 		2C7680132C272AF30077441C /* H4X0R_NewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7680122C272AF30077441C /* H4X0R_NewsUITests.swift */; };
 		2C7680152C272AF30077441C /* H4X0R_NewsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7680142C272AF30077441C /* H4X0R_NewsUITestsLaunchTests.swift */; };
+		2C7680232C272D390077441C /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7680222C272D390077441C /* NetworkManager.swift */; };
+		2C7680252C2731530077441C /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7680242C2731530077441C /* PostData.swift */; };
+		2C7680282C2735E30077441C /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7680272C2735E30077441C /* DetailView.swift */; };
+		2C76802A2C2738360077441C /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7680292C2738360077441C /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		2C76800E2C272AF30077441C /* H4X0R NewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "H4X0R NewsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C7680122C272AF30077441C /* H4X0R_NewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = H4X0R_NewsUITests.swift; sourceTree = "<group>"; };
 		2C7680142C272AF30077441C /* H4X0R_NewsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = H4X0R_NewsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2C7680222C272D390077441C /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		2C7680242C2731530077441C /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		2C7680272C2735E30077441C /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		2C7680292C2738360077441C /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +102,9 @@
 		2C767FF62C272AF20077441C /* H4X0R News */ = {
 			isa = PBXGroup;
 			children = (
+				2C7680212C272D140077441C /* Models */,
 				2C767FF72C272AF20077441C /* H4X0R_NewsApp.swift */,
-				2C767FF92C272AF20077441C /* ContentView.swift */,
+				2C7680262C2735CE0077441C /* Views */,
 				2C767FFB2C272AF30077441C /* Assets.xcassets */,
 				2C767FFD2C272AF30077441C /* Preview Content */,
 			);
@@ -125,6 +134,25 @@
 				2C7680142C272AF30077441C /* H4X0R_NewsUITestsLaunchTests.swift */,
 			);
 			path = "H4X0R NewsUITests";
+			sourceTree = "<group>";
+		};
+		2C7680212C272D140077441C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2C7680222C272D390077441C /* NetworkManager.swift */,
+				2C7680242C2731530077441C /* PostData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2C7680262C2735CE0077441C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2C767FF92C272AF20077441C /* ContentView.swift */,
+				2C7680272C2735E30077441C /* DetailView.swift */,
+				2C7680292C2738360077441C /* WebView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +286,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C767FFA2C272AF20077441C /* ContentView.swift in Sources */,
+				2C7680252C2731530077441C /* PostData.swift in Sources */,
+				2C7680232C272D390077441C /* NetworkManager.swift in Sources */,
+				2C76802A2C2738360077441C /* WebView.swift in Sources */,
+				2C7680282C2735E30077441C /* DetailView.swift in Sources */,
 				2C767FF82C272AF20077441C /* H4X0R_NewsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
